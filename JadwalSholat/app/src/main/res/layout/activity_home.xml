@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3DDE6"
+    android:padding="50dp"
+    tools:context=".Home">
+
+
+
+
+        <Button
+            android:id="@+id/btn_identitas"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="IDENTITAS MASJID">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_jadwal"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="JADWAL SHOLAT">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btn_marquee"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="MARQUEE">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btn_pengumuman"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="PENGUMUMAN">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_slide"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="SLIDE SHOW">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_tagline"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="TAGLINE">
+
+        </Button>
+
+
+</LinearLayout>
